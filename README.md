@@ -24,7 +24,7 @@ we do this to add our own extra spin on already existing functionality of class 
     <h3>Your <u>tsconfig.json</u> should look something like this:</h3>
     <p>{
   "compilerOptions": {
-    "target": "ES5",
+      ...,
     "experimentalDecorators": true
   }
 }</p>
