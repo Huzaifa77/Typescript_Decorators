@@ -1,5 +1,5 @@
 <img src="https://repository-images.githubusercontent.com/657740231/7a6b015e-0013-4f20-990e-01fa1f8e2968" align="left"  width="100" height="100" />
-<span><h1 >Decorators</h1></span>
+<span><h1 ><a href="https://www.typescriptlang.org/docs/handbook/decorators.html">Decorators</a></h1></span>
 <div>
 <article>
   <h2>Explanation</h2>
