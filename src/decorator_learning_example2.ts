@@ -25,6 +25,14 @@ export class Logger_service {
 
   //Just remember that the decorators are applied from the bottom up (in terms of their placement in the code), meaning the decorator closest to the function declaration (@logThis in this case) will be applied first, followed by the decorator above it (@decorator2).
 
+  //As such, the following steps are performed when evaluating multiple decorators on a single declaration in TypeScript:
+
+  // The expressions for each decorator are evaluated top-to-bottom.
+  // The results are then called as functions from bottom-to-top.
+
+  //we can call multiple decorators in a single line or in multiple line
+  //in a single line it is called as @decorator2 @logThislogThis doSomething
+
   @decorator2
   @logThis
   doSomething(msg: string) {
